@@ -2,10 +2,12 @@
 
 namespace Flagbit\Test\Plantuml\TokenReflection;
 
+use PHPUnit\Framework\TestCase;
+
 /**
  * @covers \Flagbit\Plantuml\TokenReflection\ConstantWriter
  */
-class ConstantWriterTest extends \PHPUnit_Framework_TestCase
+class ConstantWriterTest extends TestCase
 {
     /**
      * @var \Flagbit\Plantuml\TokenReflection\ConstantWriter

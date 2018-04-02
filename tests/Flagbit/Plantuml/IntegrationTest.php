@@ -3,12 +3,13 @@
 namespace Flagbit\Test\Plantuml;
 
 use Flagbit\Plantuml\Command\WriteCommand;
+use PHPUnit\Framework\TestCase;
 use RecursiveDirectoryIterator;
 use RecursiveIteratorIterator;
 use Symfony\Component\Console\Input\ArrayInput;
 use Symfony\Component\Console\Output\BufferedOutput;
 
-class IntegrationTest extends \PHPUnit_Framework_TestCase
+class IntegrationTest extends TestCase
 {
     public function getFixturesDir()
     {

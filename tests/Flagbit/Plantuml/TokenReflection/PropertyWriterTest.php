@@ -2,10 +2,12 @@
 
 namespace Flagbit\Test\Plantuml\TokenReflection;
 
+use PHPUnit\Framework\TestCase;
+
 /**
  * @covers \Flagbit\Plantuml\TokenReflection\PropertyWriter
  */
-class PropertyWriterTest extends \PHPUnit_Framework_TestCase
+class PropertyWriterTest extends TestCase
 {
     /**
      * @var \Flagbit\Plantuml\TokenReflection\PropertyWriter
